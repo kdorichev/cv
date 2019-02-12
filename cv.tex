@@ -1,0 +1,215 @@
+\documentclass[10pt,a4paper,roman]{moderncv}        
+% possible options include font size ('11pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[left=1.5cm,right=1.5cm,top=1cm,bottom=1cm]{geometry}
+\setlength{\hintscolumnwidth}{2.3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Konstantin}{Dorichev}
+\title{Data Scientist} 
+\address{Saint Petersburg, Russia}
+\phone[mobile]{+7 911 942-4560}
+\email{kdorichev@gmail.com}
+\social[linkedin]{konstantindorichev}
+\social[github]{kdorichev}
+\homepage{kaggle.com/kdorichev} 
+%\social[twitter]{kdorichev}
+
+\extrainfo{with pre- and post-sales experience in telecom and IT}
+
+%\photo[64pt][0.1pt]{picture} % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+%\quote{``Every man should seek to have three individuals in his life: a~Paul, a~Barnabas, and a~Timothy.'' \\Dr. Howard G.~Hendricks}
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+	%======================================================
+\section{Data Science Specialization}
+% arguments 3 to 6 can be left empty
+\cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/VU2ZNMTVR75Z}{Applied Social Network Analysis in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/VU2ZNMTVR75Z}{Certificate}}{}{} 
+
+\cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/D4LLMY8SFD2Q}{Applied Text Mining in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/D4LLMY8SFD2Q}{Certificate}}{}{}  
+
+\cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/R8XTJBMKCW68}{Applied Machine Learning in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/R8XTJBMKCW68}{Certificate}}{}{}  
+    
+\cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/UR8NPNJQLMQC}{Applied Plotting, Charting \& Data Representation in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/UR8NPNJQLMQC}{Certificate}}{}{} 
+    
+\cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/DZ38VMN9WP9X}{Introduction to Data Science in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/DZ38VMN9WP9X}{Certificate}}{}{} 
+    
+	
+\section{Experience}
+%	\subsection{Portfolio}
+
+%	\subsection{Other}
+	
+\cventry{2011--2017}{Experienced Solutions Architect}{Ericsson}{}{Moscow and Saint Petersburg}{%\newline
+		Responsibilities:%
+		\begin{itemize}%
+			\item Business and solutions development% discovering new opportunities by helping customers discern their needs and achieve their business goals with offered products and services
+		%	\item Solutions development% bid offer preparation, requirements of the customers clarification, processing and structuring input data to ensure the solution fits the expectations
+			\item Project management% 	
+			\item Marketing support and consultancy% Developing datasheets, white-papers and technical presentations			
+		\end{itemize} 
+%		Achievements:%
+%		\begin{itemize}%
+%			\item Multi-year contract with a leading mobile operator in Mongolia covering network development, HW \& SW upgrade and support
+%		\end{itemize}
+}
+	
+\cventry{2004--2011}{Pre-sales, Integration and Technical Support Engineer}{Alcatel-Lucent}{Moscow}{}{%\newline{}
+%		Responsibilities:
+%		\begin{itemize}
+%			\item Business development
+%			\item Solutions development, implementation and delivery% Both technical and financial offer
+%			\item Marketing support% Developing datasheets, white-papers and technical presentations
+%			\item Consultancy% for operators in optimizing quality of xDSL networks,	comprehensive network	analysis and troubleshooting
+			%\item Installation, demonstration, integration \& consultancy: IMS,	Applications Server | SIP, Supplementary telephone services
+			%\item Installation, integration \& troubleshooting of various systems
+%		\end{itemize}
+%		Achievements:
+%		\begin{itemize}
+%			\item Network modernization, new services introduction and technical support for leading mobile and fixed networks operators in Russia and Europe
+%			\item L1 \& L2 trainings for a leading fixed operator in Kazahstan that led to SW upsale. 
+%		\end{itemize}
+}
+
+
+\cventry{2001--2004}{Systems Administrator}{EPIC Advisors (Russia) Ltd.}{Moscow}{}{%\newline{}
+%	Achievements:
+%	\begin{itemize}
+%		\item Office IT-infrastructure rebuilt based on Linux and MS-Windows hosts, PABX installed \& configured.
+%		\item Technical support.
+%		\item Office relocated and IT-infrastructure rebuilt in new premices without services interruption.
+%	\end{itemize}
+}
+
+\cventry{1996--2001}{Software developer}{Ministry of Defence}{Moscow}{}{%\newline{}
+	Achievements:
+	\begin{itemize}
+		\item An application developed for real time data processing, analysis and reporting in a~multi-node network environment, C/C++.
+	\end{itemize}}
+
+%\pagebreak
+
+%	\subsection{Vocational}
+%	\cventry{1997-1999}{Translator}{Triad publishing}{Moscow}{}{Translating books.}
+
+
+    
+	\section{Education}    
+
+  %  \cventry{2016}{Introduction to Programming with MATLAB}{Vanderbilt University}{}{}{}%\hfill Grade: 75.6\%}{}
+    \cventry{2016}{Python Data Structures}{University of Michigan}{Coursera}{}{}%\hfill Grade: 99.2\%}{}
+    \cventry{2016}{Using Databases with Python}{University of Michigan}{Coursera}{}{}%\hfill Grade: 97.0\%}{}
+    \cventry{2016}{Using Python to Access Web Data}{University of Michigan}{Coursera}{}{}%\hfill Grade: 96.3\%}{}
+    \cventry{2016}{Introduction to \LaTeX}{Higher School of Economics}{Coursera}{}{}%\hfill Grade: 97.1\%}{}    
+%    \cventry{2016}{Getting Started with Python}{University of Michigan}{Coursera}{}{}%\hfill Grade: 99.2\%}{}
+%    \cventry{2014}{Software Defined Networking}{Georgia Inst. of Technology}{}{\hfill Grade: 70.0\%}{} 
+
+%   \cventry{2011}{Mastering Requirements}{Alcatel-Lucent University}{Training}{}{}
+ %  \cventry{2010}{Opportunities and Account Management}{The TAS Group}{Training}{Dealmaker}{}
+ %  \cventry{2009--2010}{Trainings}{Center for Business Skills Development}{Moscow}{}{}
+%	  	\cvlistitem{\textbf{Sales Strategy \& Selling to Key Accounts}} 
+%  		\cvlistitem{\textbf{Finance For Non-financial Managers}}
+%		\cvlistitem{\textbf{Presentation Skills}}
+	%	\hyperref[Example video]{youtube.com/watch?v=b8j8C3lotKM}
+%	\cventry{2009}{Getting Things Done}{Decisiveness and Problemsolving for Bid Managers}{Tiba}{Training}{}
+	\cventry{2001}{Information Security}{British Council}{}{Saint Petersburg, Diploma}{}
+	\cventry{1991--1996}{MS}{Math \& Computer Science}{Space Military Academy, with golden medal}{Saint-Petersburg}{}
+	\cventry{1987--1991}{BE}{Telecom Engineering}{Telecommunications school}{with honors}{}
+
+	\section{Computer skills}
+
+	\cvdoubleitem{Languages}{Python, SQL, Regexp, C/C++}{DevOps}{Git}
+	\cvdoubleitem{Data}{Pandas, NumPy, Scikit-Learn}{Visualization}{Matplotlib, Seaborn}
+	\cvdoubleitem{Graphics}{GIMP, Inkscape}{Typesetting}{\LaTeX, Scribus}
+
+	
+\section{Skills}
+	\cvitemwithcomment{English}{Fluent}{I catch myself thinking in English, reading more books in English than in Russian}
+	\cvitemwithcomment{Communication}{Advanced}{Ability to listen, ask questions}
+	\cvitemwithcomment{Analysis}{Advanced}{Ability to gather and process data}
+	\cvitemwithcomment{Teaching}{Advanced}{Ability to independently learn new things \& pass on gained	competence in a~constructive, adapted to~one's ability to~learn way}
+	\cvitemwithcomment{Presentation}{Advanced}{Ability to convey the message in a clear and concise way}
+%	\cvitemwithcomment{Negotiations}{Intermediate}{Financial and logistical terms negotiations}
+		
+%	\section{Languages}
+%	\cvitemwithcomment{C}{Intermediate}{1989--Present, GCC, C99}
+%	\cvitemwithcomment{Python}{Intermediate}{2016--Present, Python 2x, 3x, Jupyter}
+%	\cvitemwithcomment{C++}{Intermediate}{G++, C++11}
+%	\cvitemwithcomment{SQL}{Intermediate}{}
+%	\cvitemwithcomment{MATLAB}{Basic}{}
+					
+
+
+
+%	\section{Honors \& Awards}
+
+%	\cvlistitem{Ericsson Certified Technology - IP}
+%	\cvlistitem{Graduation with honors (Golden medal)}
+%	\cvlistitem{A Husband of One}
+%	\cvlistitem{A Father of Four}
+
+	
+%	\section{References}
+%	\begin{cvcolumns}
+%		\cvcolumn{IITM}{\begin{itemize}\item Dr. Anil P.\item Dr. Aniruddhan S.\item Dr. P.K.Behera\end{itemize}}
+%		\cvcolumn{DU}{\begin{itemize}\item Dr. Md. Naimuddin, \item Dr. Ashok K.\end{itemize}}
+%		\cvcolumn[0.4]{All the rest \& some more}{\textit{Dr. S.B.Bodke (GHRCE)}, and \textit{Dr. Satyanarayna B. (TIFR)} }
+%	\end{cvcolumns}
+	
+	% Publications from a BibTeX file without multibib
+	%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+	%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%	\nocite{*}
+%	\bibliographystyle{unsrt}
+%	\bibliography{publications}                      % 'publications' is the name of a BibTeX file
+	
+	
+%	\clearpage
+	%-----       letter       ---------------------------------------------------------
+	% recipient data
+%	 \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%	 \date{\today}
+%	 \opening{Dear Sir,}
+%	 \closing{Yours faithfully,}
+%	 \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%	 \makelettertitle
+	
+%	 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+	
+%	 Albert Einstein discovered that $e=mc^2$ in 1905.
+	
+%	\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+	
+%	 \makeletterclosing
+		
+\end{document}
+
+
+%% end of file `template.tex'.
