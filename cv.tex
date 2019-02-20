@@ -1,20 +1,15 @@
-\documentclass[10pt,a4paper,roman]{moderncv}        
-% possible options include font size ('11pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans]{moderncv}        
+\moderncvstyle{classic} % styles 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{burgundy} % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple', 'red'
 
-% moderncv themes
-\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
-
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-% character encoding
-\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[sfdefault]{roboto}
+\nopagenumbers{} 
+\usepackage[utf8]{inputenc}
 
 % adjust the page margins
-\usepackage[left=1.5cm,right=1.5cm,top=1cm,bottom=1cm]{geometry}
-\setlength{\hintscolumnwidth}{2.3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage[left=1.5cm,right=1.5cm,top=0.8cm,bottom=0.6cm]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm} % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}
 
 % personal data
 \name{Konstantin}{Dorichev}
@@ -24,14 +19,12 @@
 \email{kdorichev@gmail.com}
 \social[linkedin]{konstantindorichev}
 \social[github]{kdorichev}
-\homepage{kaggle.com/kdorichev} 
-%\social[twitter]{kdorichev}
+\homepage{medium.com/@kdorichev} 
+\social[twitter]{kdorichev}
 
-%\extrainfo{with pre- and post-sales experience in telecom and IT}
-
-%\photo[64pt][0.1pt]{picture} % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-
-%\quote{``Every man should seek to have three individuals in his life: a~Paul, a~Barnabas, and a~Timothy.'' \\Dr. Howard G.~Hendricks}
+%\photo[64pt][0.1pt]{picture} 
+% '64pt' is the height the picture must be resized to, 
+% 0.4pt is the thickness of the frame around it (put it to 0pt for no frame)
 
 % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
 %   to show numerical labels in the bibliography (default is to show no labels)
@@ -42,19 +35,17 @@
 % bibliography with mutiple entries
 %\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
+
 \begin{document}
 \makecvtitle
 %======================================================
 \section{Domain Experience}
 	
 \cventry{2019}{Computer Vision}{}{}{}{%\newline
-		Achievements:%
+		%Achievements:
 		\begin{itemize}%
 			\item Edge Detection on static images and video stream with OpenCV and Matlab
-			\item Neural network based iImage classification web app, hosted on AWS
+			\item Neural network based image classification web app, hosted on AWS
 		\end{itemize}
 }
 %======================================================
@@ -71,9 +62,6 @@
 \cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/UR8NPNJQLMQC}{Applied Plotting, Charting \& Data Representation in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/UR8NPNJQLMQC}{Certificate}}{}{} 
     
 \cventry{2018}{\href{https://www.coursera.org/account/accomplishments/certificate/DZ38VMN9WP9X}{Introduction to Data Science in Python}}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/DZ38VMN9WP9X}{Certificate}}{}{} 
-
-
-
     
 	
 \section{Other Experience}
@@ -84,12 +72,8 @@
 			\item Business and solutions development% discovering new opportunities by helping customers discern their needs and achieve their business goals with offered products and services
 		%	\item Solutions development% bid offer preparation, requirements of the customers clarification, processing and structuring input data to ensure the solution fits the expectations
 			\item Project management% 	
-			\item Marketing support and consultancy% Developing datasheets, white-papers and technical presentations			
+			\item Marketing support and consultancy % Developing datasheets, white-papers and technical presentations			
 		\end{itemize} 
-%		Achievements:%
-%		\begin{itemize}%
-%			\item Multi-year contract with a leading mobile operator in Mongolia covering network development, HW \& SW upgrade and support
-%		\end{itemize}
 }
 	
 \cventry{2004--2011}{Pre-sales, Integration and Technical Support Engineer}{Alcatel-Lucent}{Moscow}{}{%\newline{}
@@ -125,12 +109,8 @@
 		\item An application developed for real time data processing, analysis and reporting in a~multi-node network environment, C/C++.
 	\end{itemize}}
 
-%\pagebreak
-
 %	\subsection{Vocational}
 %	\cventry{1997-1999}{Translator}{Triad publishing}{Moscow}{}{Translating books.}
-
-
     
 	\section{Education}    
 
@@ -148,7 +128,7 @@
 %	  	\cvlistitem{\textbf{Sales Strategy \& Selling to Key Accounts}} 
 %  		\cvlistitem{\textbf{Finance For Non-financial Managers}}
 %		\cvlistitem{\textbf{Presentation Skills}}
-	%	\hyperref[Example video]{youtube.com/watch?v=b8j8C3lotKM}
+%	    \hyperref[Example video]{youtube.com/watch?v=b8j8C3lotKM}
 %	\cventry{2009}{Getting Things Done}{Decisiveness and Problemsolving for Bid Managers}{Tiba}{Training}{}
 	\cventry{2001}{Information Security}{British Council}{}{Saint Petersburg, Diploma}{}
 	\cventry{1991--1996}{MS}{Math \& Computer Science}{Space Military Academy, with golden medal}{Saint-Petersburg}{}
@@ -160,7 +140,6 @@
 	\cvdoubleitem{Data}{Pandas, NumPy, Scikit-Learn}{Visualization}{Matplotlib, Seaborn}
 	\cvdoubleitem{Graphics}{GIMP, Inkscape}{Typesetting}{\LaTeX, Scribus}
 
-	
 \section{Skills}
 	\cvitemwithcomment{English}{Fluent}{I catch myself thinking in English, reading more books in English than in Russian}
 	\cvitemwithcomment{Communication}{Advanced}{Ability to listen, ask questions}
@@ -169,16 +148,6 @@
 	\cvitemwithcomment{Presentation}{Advanced}{Ability to convey the message in a clear and concise way}
 %	\cvitemwithcomment{Negotiations}{Intermediate}{Financial and logistical terms negotiations}
 		
-%	\section{Languages}
-%	\cvitemwithcomment{C}{Intermediate}{1989--Present, GCC, C99}
-%	\cvitemwithcomment{Python}{Intermediate}{2016--Present, Python 2x, 3x, Jupyter}
-%	\cvitemwithcomment{C++}{Intermediate}{G++, C++11}
-%	\cvitemwithcomment{SQL}{Intermediate}{}
-%	\cvitemwithcomment{MATLAB}{Basic}{}
-					
-
-
-
 %	\section{Honors \& Awards}
 
 %	\cvlistitem{Ericsson Certified Technology - IP}
@@ -186,7 +155,7 @@
 %	\cvlistitem{A Husband of One}
 %	\cvlistitem{A Father of Four}
 
-	
+
 %	\section{References}
 %	\begin{cvcolumns}
 %		\cvcolumn{IITM}{\begin{itemize}\item Dr. Anil P.\item Dr. Aniruddhan S.\item Dr. P.K.Behera\end{itemize}}
@@ -201,6 +170,8 @@
 %	\bibliographystyle{unsrt}
 %	\bibliography{publications}                      % 'publications' is the name of a BibTeX file
 	
+
+
 	
 %	\clearpage
 	%-----       letter       ---------------------------------------------------------
@@ -222,5 +193,4 @@
 		
 \end{document}
 
-
-%% end of file `template.tex'.
+%% end of file `cv.tex'.
