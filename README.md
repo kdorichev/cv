@@ -1,2 +1,2 @@
 # Curriculum vitæ
-Please see the PDF file.
+Please see the [PDF file](cv.pdf).
