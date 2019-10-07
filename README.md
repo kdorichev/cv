@@ -1,4 +1,4 @@
-I'm a **Data Science** enthusiast, exploring **Deep Learning**, **Computer Vision** and more. With 13+ years experience in telecom and IT.
+I'm a **Data Science** enthusiast, exploring **Deep Learning**, **Computer Vision** and more, [contributing](https://github.com/fastai/fastai_dev/commits?author=kdorichev) to the fastai library development. With 13+ years experience in telecom and IT.
 
 ## Curriculum vitæ
 
