@@ -30,16 +30,6 @@
 % '64pt' is the height the picture must be resized to, 
 % 0.4pt is the thickness of the frame around it (put it to 0pt for no frame)
 
-% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
-%   to show numerical labels in the bibliography (default is to show no labels)
-\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
-%   to redefine the bibliography heading string ("Publications")
-\renewcommand{\refname}{Articles}
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-
 \begin{document}
 \makecvtitle
 %======================================================
@@ -48,21 +38,21 @@
 
 \cventry{2019}{\href{https://www.coursera.org/account/accomplishments/specialization/5VGBE56Q62GE}{Deep Learning Specialization}}
 {Neural Networks and Deep Learning; Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization; Structuring Machine Learning Projects;
-	Convolutional Neural Networks; Sequence Models}{DeepLearning.ai}{\href{https://www.coursera.org/account/accomplishments/specialization/5VGBE56Q62GE}{Certificates}, Coursera}{}
+Convolutional Neural Networks; Sequence Models}{DeepLearning.ai}{\href{https://www.coursera.org/account/accomplishments/specialization/5VGBE56Q62GE}{Certificates}, Coursera}{}
 
-\cventry{2019--present}{\href{https://www.udacity.com/course/introduction-to-computer-vision--ud810}{Introduction to Computer Vision}}{Georgia Tech University}{Udacity}{}{}{}
+\cventry{2019--present}{\href{https://www.udacity.com/course/introduction-to-computer-vision--ud810}{Introduction to Computer Vision}}{Georgia Tech University}{Udacity}{}{}
 
 \cventry{2018}{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/J256X6R5RZVP}{Applied Data Science with
 Python Specialization}}{Introduction to Data Science; Applied Plotting, Charting \& Data Representation; Applied Machine Learning; Applied Text Mining; Applied Social Network Analysis}{University of Michigan}{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/J256X6R5RZVP}{Certificates}, Coursera}{}
-
  
 %======================================================
+
 \section{Experience}
 \cventry{2019--present}{\href{https://github.com/fastai/fastai/commits?author=kdorichev}{Contributing to the Open Source Deep Neural Network library development}}{\href{https://github.com/fastai/fastai_dev/commits?author=kdorichev}{Fastai}}{}{}{%
 }
 	
-\cventry{2019}{Projects and Articles}{}{}{}{%\newline
-	\begin{itemize}%
+\cventry{2019}{Projects and Articles}{}{}{}{
+	\begin{itemize}
 	\item \href{https://medium.com/@kdorichev/malaria-cells-image-classification-with-convolutional-neural-network-2ecd293ef9ec}{Malaria Cells Image Classification with Residual Neural Network}
 	\item \href{https://medium.com/@kdorichev/edge-detection-in-computer-vision-7a1239f4c916}{Edge Detection on static images and video stream with OpenCV and Matlab}
 	\item \href{https://github.com/kdorichev/image-classifier-web-app}{Image classification web app, hosted on AWS}
@@ -74,16 +64,16 @@ Python Specialization}}{Introduction to Data Science; Applied Plotting, Charting
 \subsection{Other Experience}
 	
 \cventry{2011--2017}{Experienced Solutions Architect}{Ericsson}{}{Moscow and Saint Petersburg}{
-		Responsibilities:%
-		\begin{itemize}%
+		Responsibilities:
+		\begin{itemize}
 			\item \textsc{Business and solutions development}: Discovering new opportunities by helping customers discern their needs and achieve their business goals with offered products and services
 			\item \textsc{Solutions development}: Bids/offers preparation, requirements of the customers clarification, processing and structuring input data to ensure the solution fits the expectations
-			\item \textsc{Project management}% 	
+			\item \textsc{Project management} 	
 			\item \textsc{Marketing support and consultancy}: Developing datasheets, white-papers and technical presentations			
 		\end{itemize}
 		\vspace{3pt}
-		Achievements:%
-		\begin{itemize}%
+		Achievements:
+		\begin{itemize}
 			\item Multi-year contract with a leading mobile operator in Mongolia covering network development, HW \& SW upgrade and support
 		\end{itemize}		
 }
@@ -114,7 +104,7 @@ Python Specialization}}{Introduction to Data Science; Applied Plotting, Charting
 	\end{itemize}
 }
 
-\cventry{1996--2001}{Software developer}{Ministry of Defence}{Moscow}{}{%\newline{}
+\cventry{1996--2001}{Software developer}{Ministry of Defence}{Moscow}{}{
 	Achievements:
 	\begin{itemize}
 		\item An application developed for real time data processing, analysis and reporting in a~multi-node network environment, C/C++.
