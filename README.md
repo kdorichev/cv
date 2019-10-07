@@ -1,4 +1,6 @@
-# Curriculum vitæ
+I'm a **Data Science** enthusiast, exploring **Deep Learning**, **Computer Vision** and more. With 13+ years experience in telecom and IT.
+
+## Curriculum vitæ
 
 Download PDF file to enjoy *active links* to profiles and certificates:
 
